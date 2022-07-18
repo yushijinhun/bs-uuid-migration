@@ -1,0 +1,25 @@
+{
+  "name": "bs-uuid-migration",
+  "version": "0.0.1",
+  "description": "A tool to fix data inconsistency problems described in blessing-skin-plugins#151",
+  "author": "Haowei Wen <yushijinhun@gmail.com> (https://github.com/yushijinhun)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yushijinhun/bs-uuid-migration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yushijinhun/bs-uuid-migration/issues"
+  },
+  "homepage": "https://github.com/yushijinhun/bs-uuid-migration",
+  "type": "module",
+  "scripts": {
+    "precheck": "node src/precheck.js",
+    "migrate": "node src/migrate.js"
+  },
+  "dependencies": {
+    "@databases/mysql": "^5.2.1",
+    "axios": "^0.27.2",
+    "cli-progress": "^3.11.2"
+  }
+}

@@ -1,0 +1,5 @@
+export default {
+    database: "mysql://username:password@host:3306/database",
+    tablePrefix: "",
+    site: "https://example.com"
+};
