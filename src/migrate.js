@@ -18,7 +18,7 @@ function arrayEquals(a, b) {
 (async () => {
     const expectDeletions = await loadResult("ids_to_delete.json");
     if (expectDeletions === null) {
-        console.error("Please run analyze.js first!");
+        console.error("Please run precheck.js first!");
         throw new Error();
     }
 
